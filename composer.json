@@ -1,0 +1,23 @@
+{
+    "name": "kora/container",
+    "description": "Container for Kora.",
+    "require": {
+        "php": "^7.4 || ^8.0",
+		"kora/exceptions": "dev-main",
+		"psr/container": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kora\\Container\\": "src"
+        }
+    },
+	"autoload-dev": {
+		"psr-4": {
+			"Container\\Tests\\": "tests/"
+		}
+	},
+	"config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    }
+}
