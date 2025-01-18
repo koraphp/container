@@ -11,10 +11,10 @@
 
 namespace Kora\Container;
 
-use Psr\Container\ContainerInterface;
-use Throwable;
 use Kora\Exceptions\ServiceContainerException;
 use Kora\Exceptions\ServiceNotFoundException;
+use Psr\Container\ContainerInterface;
+use Throwable;
 
 class ServiceContainer implements ContainerInterface
 {
