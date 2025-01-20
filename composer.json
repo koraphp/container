@@ -16,7 +16,7 @@
         "php": "^7.4 || ^8.0",
 		"psr/container": "^2.0",
 		"pimple/pimple": "3.5.*",
-        "kora/debug": "dev-main",
+        "kora/debug": "^0.1",
         "symfony/var-dumper": "^5.4"
     },
     "autoload": {
